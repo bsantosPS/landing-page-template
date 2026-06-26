@@ -1,0 +1,14 @@
+git init => Initialize a new local git repository
+git status => Track what files and folders are not in the staging area (red) and in the staging area (green)
+git add => Move files to the staging area to make them ready to be committed
+  git add fileName => Stage individual files and folders as arguments
+  git add . => Stage everything in the current directory
+  git add -A => Stage everything in the current project/git repository
+git commit -m => Commit the current files in the staging area with a message describing the changes made
+git log => View a log of the git repository's prior commits
+git remote add origin remoteRepoURL => Used to establish a connection between your local Git repository and a remote repository
+git push -u origin branchName => Used to push all of your local commits to the remote repository
+git branch => Used to check all of the available branches that exist and the branch you are on
+git checkout -b branchName => Create a new branch and immediately switch to it
+git branch -d branchName => Delete the branch specified
+git merge branchName => Merge the changes from branchName into the branch you're currently on
